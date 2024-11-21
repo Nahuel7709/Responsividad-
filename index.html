@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empresa de Desarrollo de Software</title>
+
+ 
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+    
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        nav {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        nav ul li {
+            display: inline;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+        }
+
+        nav ul li a:hover {
+            background-color: #575757;
+        }
+
+        
+        @media (max-width: 768px) {
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+
+        @media (max-width: 480px) {
+            nav {
+                text-align: center;
+            }
+
+            nav ul {
+                padding: 0;
+            }
+
+            nav ul li {
+                margin-bottom: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+ 
+    <nav>
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Servicios</a></li>
+            <li><a href="#">Proyectos</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+    </nav>
+
+   
+    <main class="p-8">
+        <h1 class="text-3xl text-center mb-6">Bienvenidos a nuestra Empresa de Desarrollo de Software</h1>
+        <p class="text-center text-lg">Desarrollamos soluciones innovadoras para negocios de todo tamaño.</p>
+    </main>
+
+    
+    <footer class="bg-gray-800 text-white text-center py-4 mt-8">
+        <p>&copy; 2024 Empresa de Desarrollo de Software. Todos los derechos reservados.</p>
+        <p>Síguenos en redes sociales</p>
+    </footer>
+
+</body>
+</html>
